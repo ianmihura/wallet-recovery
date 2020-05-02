@@ -15,21 +15,21 @@ function Main() {
 
 var counter = 0;
 const words = [
-    [], //1
-    [], //2 
-    [], //3
+    ["sílaba"], //1
+    ["terco"], //2 
+    ["existir"], //3
 	
-    [], //4
-    [], //5
-    [], //6
+    ["ola", "onda"], //4
+    ["gacela"], //5
+    ["salir", "palabra", "ganar"], //6
 
-    [], //7
-    [], // 8
-    [], //9
+    ["satán"], //7
+    ["mambo"], // 8
+    ["barro", "maíz"], //9
 
-    [], //10
-    [], //11
-    []  //12
+    ["cabeza"], //10
+    ["morir", "rezar"], //11
+    ["ánimo", "chiste"]  //12
 ];
 
 function generatePermutations() {
