@@ -1,0 +1,21 @@
+{
+    "name": "myapp",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "nodemon ./bin/www"
+    },
+    "dependencies": {
+        "bip39": "^3.0.2",
+        "bitcoinjs-lib": "^5.1.7",
+        "cookie-parser": "~1.4.4",
+        "debug": "~2.6.9",
+        "easy-bitcoin-js": "^0.2.2",
+        "express": "~4.16.1",
+        "morgan": "~1.9.1",
+        "regtest-client": "^0.2.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.3"
+    }
+}
